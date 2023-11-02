@@ -17,6 +17,7 @@ public class Main {
         strawberry.numBush = 20;
         strawberry.isRipe = true;
         strawberry.numSeeds = 200;
+        strawberry.printInfo();
 
         Fruit apple;                             // declare strawberry
         apple = new Fruit();                     // construct strawberry
@@ -25,7 +26,7 @@ public class Main {
         apple.numBush = 1000;
         apple.isRipe = true;
         apple.numSeeds = 10;
-        System.out.println(); 
+        apple.Print();
 
 
 
